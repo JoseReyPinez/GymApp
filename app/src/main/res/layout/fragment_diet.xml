@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_show_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Info"
+            android:background="@color/blue"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_diet_detail_1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/diet_image1"
+            android:text="@string/keto_diet"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_diet_detail_2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/diet_image2"
+            android:text="@string/low_carb_diet"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_diet_detail_3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/diet_image3"
+            android:text="@string/paleo_diet"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

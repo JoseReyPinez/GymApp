@@ -1,0 +1,54 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_show_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_info"
+            android:background="@color/blue"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btn_workout_detail_1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/workout_image1"
+            android:text="@string/upper_body"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_workout_detail_2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/workout_image2"
+            android:text="@string/lower_body"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_workout_detail_3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/workout_image3"
+            android:text="@string/cardio"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

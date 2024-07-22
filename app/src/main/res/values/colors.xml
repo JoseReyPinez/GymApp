@@ -1,0 +1,9 @@
+<resources>
+    <color name="blue">#2196F3</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darker_gray">#A9A9A9</color>
+    <color name="dark_grey">#333333</color>
+    <color name="nav_item_color">#808080</color> <!-- Grey color for unselected items -->
+    <color name="nav_item_selected_color">#FFFFFF</color> <!-- White color for selected item -->
+</resources>

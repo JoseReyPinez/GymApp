@@ -1,0 +1,13 @@
+ <resources>
+        <string name="app_name">GymApp</string>
+        <string name="username">Username</string>
+        <string name="password">Password</string>
+        <string name="login">Login</string>
+     <string name="upper_body">Upper body</string>
+     <string name="show_info">Show Info</string>
+     <string name="lower_body">Lower body</string>
+     <string name="cardio">Cardio</string>
+     <string name="paleo_diet">Paleo diet</string>
+     <string name="low_carb_diet">Low-carb diet</string>
+     <string name="keto_diet">Keto diet</string>
+ </resources>
